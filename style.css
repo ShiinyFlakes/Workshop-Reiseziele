@@ -1,0 +1,101 @@
+body {
+ 
+ background-repeat: no-repeat;
+  background-color: #1597E5;
+ background-image: url(./76093_fullimage_amsterdam-5768537_1920_1360x785_818x512.jpg);
+ background-size: cover;
+height: 400px;
+
+
+ 
+}
+.smil1{
+    height: 400px;
+    font-size: 25px;
+    color:  white;
+    padding: 200px;
+    text-align: center;
+}
+
+
+
+
+h1 {
+  width: 100px;
+  height: 100px;
+ background-color: #193498;
+  animation-name: example;
+  animation-duration: 4s;
+  text-align: center;
+ 
+
+  
+}
+bild-1{
+    width: 100%;
+
+    
+}
+h1 {
+  width: 300px;
+  height: 100px;
+
+  transition: width 2s;
+ 
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.ti1{font-size: 55px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+@keyframes example {
+  from {
+    background-colo: #1597E5;
+  }
+  to {
+    background-color: #69DADB;
+  }
+}
+h1:hover {
+  width: 700px;
+}
+
+bild-1{
+width: 700%;
+height: 900px;
+border-radius: 330px;
+
+}
+.flex-container{
+    display: flex;
+  justify-content: center;
+  background-color: #193498;
+
+
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 50px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  height: 100%;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
