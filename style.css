@@ -12,23 +12,42 @@ body{
 
 #hauptschrift{
     display: flex;
-    line-height: ;
     background-color: #1597E5;
     color: #193498;
     height: 100px;
-    width: 400px;
+    width: 800px;
     font-size: 5rem !important;
     align-items: center;
     justify-content: center;
     animation: Paris 5s infinite alternate;
+    padding: 3rem;
+    text-transform: uppercase;
     
+}
+.flex-container{
+    display: flex;
+    background-color: #3D56B2;
+    justify-content: space-between;
+
+}
+.flex-container > div {
+  
+  width: 33%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  
+}
+.flex-container img{
+    width: 37.2rem;
+    height: 25rem;
 }
 @keyframes Paris {
     0% {transform:translate(00%);}
-    25%{transform:translate(100%);}
-    50% {transform:translate(200%);}
-    75% {transform:translate(300%)}
-    100% {transform:translate(400%)}
+    25%{transform:translate(50%);}
+    50% {transform:translate(100%);}
+    75% {transform:translate(150%)}
+    100% {transform:translate(180%)}
     
     
 }
@@ -50,20 +69,35 @@ body{
     border: none !important;
     background-color: #1597E5 !important;    
 }
+#unterüberschrift{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    opacity: calc(.50);
+    
+}
+#unterüberschrift:hover {
+    opacity: 1.0;
+  }
 h5{
     font-size: 2rem  !important;
     color:#3D087B ;
     text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
 }
 p{
     color:white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6rem;
+    text-align: justify;
+    margin: 8px;
 
 }
 #link{
     text-decoration: none;
-    color: #000 !important;
+    
 }
 
 
