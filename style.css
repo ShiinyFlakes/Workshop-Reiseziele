@@ -26,7 +26,7 @@ body{
 }
 .flex-container{
     display: flex;
-    background-color: #3D56B2;
+    background-color: #6a86e99c;
     justify-content: space-between;
 
 }
@@ -79,7 +79,10 @@ body{
 }
 #unterüberschrift:hover {
     opacity: 1.0;
-  }
+}
+h3{
+    border-bottom: 2px solid black;
+}
 h5{
     font-size: 2rem  !important;
     color:#3D087B ;
@@ -98,6 +101,10 @@ p{
 #link{
     text-decoration: none;
     
+}
+#opacity{
+    background-color: #0971b6 !important;
+
 }
 
 
