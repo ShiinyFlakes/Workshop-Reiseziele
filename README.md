@@ -1,2 +1,2 @@
 # Workshop-Reiseziele
-Hussein Mago Rajwinder
+Workshop-Projekt
